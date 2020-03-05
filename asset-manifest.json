@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/kahootz-clone/static/css/main.0f51e92f.chunk.css",
-    "main.js": "/kahootz-clone/static/js/main.70b54049.chunk.js",
-    "main.js.map": "/kahootz-clone/static/js/main.70b54049.chunk.js.map",
+    "main.js": "/kahootz-clone/static/js/main.a8c5cf20.chunk.js",
+    "main.js.map": "/kahootz-clone/static/js/main.a8c5cf20.chunk.js.map",
     "runtime-main.js": "/kahootz-clone/static/js/runtime-main.e9bf6904.js",
     "runtime-main.js.map": "/kahootz-clone/static/js/runtime-main.e9bf6904.js.map",
     "static/js/2.640b199e.chunk.js": "/kahootz-clone/static/js/2.640b199e.chunk.js",
     "static/js/2.640b199e.chunk.js.map": "/kahootz-clone/static/js/2.640b199e.chunk.js.map",
     "index.html": "/kahootz-clone/index.html",
-    "precache-manifest.79360ae609439c7b7e2d2c079d6af2db.js": "/kahootz-clone/precache-manifest.79360ae609439c7b7e2d2c079d6af2db.js",
+    "precache-manifest.f7e774263568e49d9f473b33a380053a.js": "/kahootz-clone/precache-manifest.f7e774263568e49d9f473b33a380053a.js",
     "service-worker.js": "/kahootz-clone/service-worker.js",
     "static/css/main.0f51e92f.chunk.css.map": "/kahootz-clone/static/css/main.0f51e92f.chunk.css.map",
     "static/js/2.640b199e.chunk.js.LICENSE.txt": "/kahootz-clone/static/js/2.640b199e.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e9bf6904.js",
     "static/js/2.640b199e.chunk.js",
     "static/css/main.0f51e92f.chunk.css",
-    "static/js/main.70b54049.chunk.js"
+    "static/js/main.a8c5cf20.chunk.js"
   ]
 }

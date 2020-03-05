@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3d01e06295cbc2261aabfd0e405eefef",
+    "revision": "1ba9b19644fb978ca032834a198c7a22",
     "url": "/kahootz-clone/index.html"
   },
   {
-    "revision": "22f0105124fac036a46b",
-    "url": "/kahootz-clone/static/css/main.cb68b59f.chunk.css"
+    "revision": "ae4f223dd139a5acdba8",
+    "url": "/kahootz-clone/static/css/main.73fc4e79.chunk.css"
   },
   {
     "revision": "b7be0612dc9c10f1b516",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kahootz-clone/static/js/2.640b199e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "22f0105124fac036a46b",
-    "url": "/kahootz-clone/static/js/main.c65f4a41.chunk.js"
+    "revision": "ae4f223dd139a5acdba8",
+    "url": "/kahootz-clone/static/js/main.70b54049.chunk.js"
   },
   {
     "revision": "33cfa87f1bde22013e2e",

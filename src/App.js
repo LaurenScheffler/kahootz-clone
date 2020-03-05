@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import questions from './questions.json'
+import questions from './components/QuizQuestion/questions.json'
 
 const TIME_LIMIT = 5
 const TITLE_STATE = 0
@@ -83,7 +83,7 @@ return (
 {((this.state.currentState === TITLE_STATE) ?
 <>
 <h2>{this.state.titleText}</h2>
-<input className="start" type="button" value="start" onClick={()=>this.start()} />
+<input className="start" type="button" value="Start" onClick={()=>this.start()} />
 </>
 :
 <QuizQuestion answers={questions[this.state.currentQuestion].possibleAnswers} question=

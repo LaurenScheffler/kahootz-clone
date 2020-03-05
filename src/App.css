@@ -1,43 +1,75 @@
+body{
+  background-color: #5c5757;
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3Ehoundstooth%3C/title%3E%3Cg fill='%23363434' fill-opacity='0.3' fill-rule='evenodd'%3E%3Cpath d='M0 18h6l6-6v6h6l-6 6H0M24 18v6h-6M24 0l-6 6h-6l6-6M12 0v6L0 18v-6l6-6H0V0'/%3E%3C/g%3E%3C/svg%3E");
+}
+
 .App {
   text-align: center;
+  
 }
 
 Input.start{
   font-size: xxx-large;
-  background-color: lightgreen;
+  background-color: #62929a;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+  font-size: xx-large;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+h2{
+  font-size: xxx-larger;
+}
+
+.start{
+  display: inline-block;
+  padding: 0.2em 1.45em;
+  margin:0.1em;
+  border:0.15em solid #CCCCCC;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Segoe UI','Roboto',sans-serif;
+  font-weight:400;
+  color:#000000;
+  background-color: #62929a;
+  text-align:center;
+  position:relative;
+  content: Start;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .start:hover{
+  border-color:#7a7a7a;
   }
-  to {
-    transform: rotate(360deg);
+  .start:active{
+  background-color:#999999;
   }
+
+  input.answerButton{
+    display:inline-block;
+padding:0.3em 1.2em;
+margin:0 0.3em 0.3em 0;
+border-radius:2em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#FFFFFF;
+background-color:#4eb5f1;
+text-align:center;
+transition: all 0.2s;
+}
+input.answerButton:hover{
+background-color:#4095c6;
+}
+
+@media all and (max-width:30em){
+  .start{
+    display: block;
+    margin: 0.2em auto;
+    }
+
+  input.answerButton{
+display:block;
+margin:0.2em auto;
+}
 }
